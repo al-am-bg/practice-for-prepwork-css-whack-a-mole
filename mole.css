@@ -1,29 +1,31 @@
 /* Your code here */
 .wgs {
   display: inline-block;
-  height: 482px;
+  height: 241px;
   position: relative;
-  width: 600px;
+  width: 300px;
+  overflow: hidden;
 }
 .wgs__mole-head {
-  height: 362px;
+  height: 181px;
   position: absolute;
-  width: 376px;
-  left: 109px;  
+  width: 195px;
+  left: 51px; 
+  transition: margin-top 0.25s; 
 }
 
 .wgs__mole-hill {
-  height: 220px;
-  top: 262px;
+  height: 110px;
+  top: 131px;
   position: absolute;
-  width: 600px;  
+  width: 320px;  
 }
 .wgs__mole-head--hidden {
-  height: 362px;
+  height: 181px;
   position: absolute;
-  width: 376px;
-  left: 109px;
-  margin-top: 362px;  
+  width: 195px;
+  left: 51px; 
+  margin-top: 241px;  
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
